@@ -1,0 +1,49 @@
+body {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  font-size: clamp(.7rem, 2vw, 1rem);
+  text-align: center;
+}
+
+#title {
+  font-size: clamp(1.7rem, 8vw, 3rem);
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  width: 50%;
+  text-align: center;
+}
+
+#btn-container {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  font-size: clamp(.9rem, 2vw, 1.2rem);
+  text-align: center;
+  background-color: #D9D9D9;
+  color: black;
+  margin: 1rem;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+#start {
+  margin: auto;
+  margin-top: 1rem;
+  width: 28%;
+  text-align: center;
+}
+
+.button:hover {
+  scale: 1.1;
+}
